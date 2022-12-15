@@ -1,0 +1,203 @@
+STRINGS
+--------------------------------
+📚 Propiedades
+   📒 length
+      🗣 Significado
+         length = longitud
+      
+      🗒 Concepto
+         Regresa el número de caracteres y espacios en blanco que tiene una variable/elemento/string
+      
+      🗒 Uso
+         string.length
+
+📚 Métodos
+   📒 trim()
+      🗣 Significado
+         trim = recortar
+
+       🗒 Concepto
+         - Quita los espacios en blanco al inicio y al final de un texto.
+      
+      🗒 Uso
+         string.trim()
+   
+   📒 toUpperCase()
+      🗣 Significado
+         to = Hacía / a
+         UpperCase = Mayúsculas
+
+       🗒 Concepto
+         - Transforma un string a mayúsculas.
+      
+      🗒 Uso
+         string.toUpperCase()
+   
+   📒 toLowerCase()
+      🗣 Significado
+         to = Hacía / a
+         lowerCase = Minúsculas
+
+       🗒 Concepto
+         - Transforma un string a minúsculas.
+      
+      🗒 Uso
+         string.toLowerCase()
+   
+   📒 concat()
+      🗣 Significado
+         concatenate = concatenar
+      
+      🗒 Concepto
+         - Concatena variables con texto, viceversa, texto con texto o variable con variable. 
+
+      🗒 Uso
+         string.concat(cadena1,..., cadenaN) 
+   
+   📒 indexOf()
+      🗣 Significado
+         index = índice
+         of = de
+      
+      🗒 Concepto
+         - Regresa la posición (en número) de donde se encuentra el carácter/palabra de un string. 
+
+      🗒 Uso
+         string.indexOf(valorBuscar, inicio)
+   
+   📒 lastIndexOf()
+      🗣 Significado
+         last = último
+         index = índice
+         of = de
+      
+      🗒 Concepto
+         - Regresa la posición (en número) de donde se encuentra el carácter/palabra de un string empezando desde atrás. 
+
+      🗒 Uso
+         string.lastIndexOf(valorBuscar, inicio)
+   
+   📒 substring()
+      🗣 Significado
+         substring = subcadena
+      
+      🗒 Concepto
+         - Sustrae un pedazo de texto de un string
+
+      🗒 Uso
+         string.substring(posicionInicial, posicionFinal)
+
+         💡 Dato
+            El carácter al que pertenece la posición final no se imprime(o no se muestra).
+   
+   📒 substr()
+      🗣 Significado
+         sub = sub
+         str = string
+      
+      🗒 Concepto
+         - Sustrae un pedazo de texto de un string
+
+      🗒 Uso
+         string.substr(posicionInicial, numeroCaracteres)
+   
+   📒 slice()  
+      🗣 Significado
+         slice = rebanada
+      
+      🗒 Concepto
+         - Hace lo mismo que substring.
+
+      🗒 Uso
+         string.slice(posicionInicial, posicionFinal)
+
+   📒 split()
+      🗣 Significado
+         split= división
+      
+      🗒 Concepto
+         - Divide una cedana de texto según el separador que indiquemos. 
+
+      🗒 Uso
+         string.split(separador, límite)
+   
+   📒 replace()
+      🗣 Significado
+         replace = reemplazar
+      
+      🗒 Concepto
+         - Reemplazar un texto dentro de un string por otro. 
+
+      🗒 Uso
+         string.replace(txtOriginal, txtRemplazo)
+   
+   📒 includes()
+      🗣 Significado
+         includes = incluye
+      
+      🗒 Concepto
+         - Indica si una palabra existe o no dentro de un string. 
+
+      🗒 Uso
+         string.includes(txtBuscar)
+   
+   📒 startsWith()
+      🗣 Significado
+         starts = empieza / comienza
+         with = con
+      
+      🗒 Concepto
+         - Indica si la cadena de texto comienza con. 
+
+      🗒 Uso
+         string.startsWith(txt)
+
+   📒 endsWith()
+      🗣 Significado
+         ends = termina / final
+         with = con
+      
+      🗒 Concepto
+         - Indica si la cadena de texto termina con. 
+
+      🗒 Uso
+         string.endsWith(txt)
+      
+   📒 repeat()
+      🗣 Significado
+         repeat = repetir
+      
+      🗒 Concepto
+         - Repete el contenido de una variable una cantidad de veces.
+
+      🗒 Uso
+         string.repeat(numero)
+
+         💡 Dato
+            El número de repeticiones no debe ser negativo.
+
+📚 Concatenar
+   📒 Formas
+      🗒 Signo más (+)
+      🗒 Template literals
+      🗒 concat()
+
+📚 Convertir de string a numero
+   📒 Formas
+      🗒 Función Number
+      
+      🗒 Método parseInt()
+         🗣 Significado
+            parse = analizar gramaticalmente
+            integer = entero
+         
+         🗒 Uso
+            parseInt(string)
+         
+      🗒 Método parseFloat()
+         🗣 Significado
+            parse = analizar gramaticalmente
+            float = flotador. 
+
+         🗒 Uso
+            parseFloat(string)

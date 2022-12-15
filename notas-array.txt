@@ -1,0 +1,216 @@
+A R R A Y S
+Part. #1
+-------------------
+📚 Propiedades
+   📒 length
+      🗣 Significado
+         length = longitud
+      
+      🗒 Concepto
+         - Regresa el número de carácteres y espacios en blanco que tiene un string
+         ✨ Regresa el número de elementos que hay dentro de un array. 
+      
+      🗒 Uso
+         arreglo.length
+
+📚 Acceder a elemento. 
+   📒 Usando su indice 
+      arreglo[indice]
+
+   📒 Método slice()
+      🗣 Significado
+         slice = rebanada
+      
+      🗒 Concepto
+         - Sustraé un texto de una cadena de texto. 
+         ✨ Sustraé elementos de un array y genera un nuevo array sin modificar al original. 
+
+      🗒 Uso
+         string.slice(posicionInicial, posicionFinal)
+            📍Nota: 
+            Si se omite la posicionFinal, toma a todos los elementos que se encuentran después de la posición inicial. 
+
+📚 Cambiar elemento. 
+   array[indice] = 'nuevo valor'
+
+📚 Agregar elementos al array. 
+   📒 Uso de corchetes
+      array[indice] = 'valor'
+
+   📒 Método push()
+      🗣 Significado
+            push = empujar
+      
+      🗒 Concepto
+         - Agrega uno o más elementos al final del array.
+
+      🗒 Uso
+         arreglo.push(elemento1, elemento2)
+   
+   📒 Método unshift()
+      🗣 Significado
+            unshift = cambiar de turno
+      
+      🗒 Concepto
+         - Agrega uno o más elementos al inicio del array.
+
+      🗒 Uso
+         arreglo.unshift(elemento1, elemento2)
+      
+   📒 Método splice()
+      🗣 Significado
+            splice = empalmar
+      
+      🗒 Concepto
+         - Agrega uno o más elementos al array en un indice en especial. 
+
+      🗒 Uso
+         arreglo.splice(indiceInsertar, cantidadEliminar, elemento1, elemento2)
+   
+   📒 Método concat()
+      🗣 Significado
+         concatenate = concatenar
+      
+      🗒 Concepto
+         - Concatena variables con texto o viceversa. 
+         ✨ Agrega elementos al final del array. 
+
+      🗒 Uso
+         arreglo.concat(elemento1, elemento2)
+
+📚 Buscar elementos en array.
+   📒 Método indexOf()
+      🗣 Significado
+         index = índice
+         of = de
+      
+      🗒 Concepto
+         - Regresa la posición (en número) de donde se encuentra el caracter/palabra de un string. 
+         ✨ Regresa la posicion (en número) que tiene un elemento dentro del arreglo. 
+
+      🗒 Uso
+         arreglo.indexOf(elemento)
+
+         📍Nota
+            Regresa -1 si el elemento no está presente. 
+      
+   📒 Método find()
+      🗣 Significado
+         find = encontrar
+      
+      🗒 Concepto
+         -  Genera un nuevo array con el primer elemento del array que cumplan con una condición. 
+
+      🗒 Uso
+         arreglo.find(condición)
+   
+   📒 Método findIndex()
+      🗣 Significado
+         find = encontrar
+         index = índice
+      
+      🗒 Concepto
+         -  Devuelve el índice del primer elemento de un array que cumpla con una condición. 
+
+      🗒 Uso
+         arreglo.findIndex(condición)
+
+📚 Eliminar elementos de un array. 
+   📒 Método shift()
+      🗒 Concepto
+         - Elimina el primer elemento de un array.
+
+      🗒 Uso
+         arreglo.shift()
+   
+   📒 Método pop()
+      🗒 Concepto
+         - Elimina el último elemento de un array.
+
+      🗒 Uso
+         arreglo.pop()
+   
+   📒 Método set()
+      🗣 Significado
+         set = conjunto / grupo
+      
+      🗒 Concepto
+         - Elimina un elemento duplicado dentro de un array.
+
+      🗒 Uso
+         new Set(arreglo)
+   
+   📒 Método splice()
+      🗣 Significado
+            splice = empalmar
+      
+      🗒 Concepto
+         - Agrega uno o más elementos al array en un indice en especial. 
+         ✨ Elimina uno o mas elementos del array en un indice especial.
+
+      🗒 Uso
+         arreglo.splice(indiceInsertar, cantidadEliminar, elemento1)
+         ✨ arreglo.splice(indiceEliminar, cantidadEliminar) ✨
+
+📚 Unir array.
+   📒 Método concat()
+      🗒 Uso
+         arreglo.concat(arreglo2)
+
+📚 Ordenar array.
+   📒 Método sort()
+      🗣 Significado
+         sort = ordenar
+      
+      🗒 Concepto
+         - Ordena los elementos que se encuentran dentro de un array. 
+
+      🗒 Uso
+         arreglo.sort()
+            📍Nota
+               Para ordenar numeros debemos pasar una función dentro de los paréntesis de sort()
+
+📚 Comprobar si es un array. 
+   📒 Método Array.isArray()
+      🗣 Significado
+         is = es
+         array = arreglo
+
+      🗒 Uso
+         Array.isArray(arreglo)
+
+📚 map()
+   🗣 Significado
+         map = mapa
+      
+   🗒 Concepto
+      - Transforma cada uno de los elementos de un array generando un nuevo array totalmente independiente al que estamos usando.
+
+   🗒 Uso
+      arreglo.map(función)
+
+      fuction saludar(nombre){
+         // codigo 
+         return console.log('hola ' + nombre)
+      }
+      saludar('Eduardo')
+
+📚 filter()
+   🗣 Significado
+         filter = filtro
+      
+   🗒 Concepto
+      - Filtra los elementos del array que cumplan con una condición dada y genera un array con estos, por ello, hay que guardar este nuevo array(que parte del original) en una variable. 
+
+   🗒 Uso
+      arreglo.filter(función)
+
+📚 reduce()
+   🗣 Significado
+         reduce = reducir
+      
+   🗒 Concepto
+      - Reduce los elementos de un array a un único valor. 
+
+   🗒 Uso
+      arreglo.reduce(funcion(parametro1, parametro2){})

@@ -1,0 +1,100 @@
+O B J E T O S 
+Part. #1
+-------------------
+📚 Concepto
+   - Un objeto reúne las características generales de un objeto en la vida real.
+
+   - Dentro de los objetos puede haber cadenas de texto, números, arreglos, funciones e incluso objetos (objeto dentro de objeto). 
+
+   - Cuando una función está dentro de un objeto se le llama método. 
+   -Todo JS es un objeto.
+
+📚 Crear objetos 
+
+   let nomObjeto = {
+      propiedad : 'valor',
+      propiedad : 'valor'
+   } 
+
+📚 Manipulación de objetos
+   📒 Acceder a sus valores. 
+      🗒 Desde afuera
+         ✍🏽 Notación de puntos
+             objeto.propiedad
+         
+         ✍🏽 Notación de corchetes
+            objeto[propiedad]
+            
+            📍 Nota 
+               Usa esta opción cuando el nombre de la propiedad/key tiene caracteres especiales. 
+
+      🗒 Desde adentro
+         ✍🏽 Palabra this
+            this.propiedad
+   
+   📒 Modificar valores.
+      objeto.propiedad = nuevoValor
+   
+   📒 Agregar propiedades. 
+      🗒 Notación de puntos
+         objeto.propiedad = valor
+      
+      🗒 Notación de corchetes.
+         objeto[propiedad] = valor
+   
+   📒 Eliminar propiedades. 
+      🗒 Operdador delete. 
+         detele objeto.propiedad
+
+   📒 Propiedad existente. 
+      🗒 Operador in
+         propiedad in objeto
+
+   📒 Copiar objetos. 
+      Object.assing({}, objeto)
+
+📚 Recorrer objetos. 
+   📒 for in
+      🗣 Significado
+         for = para 
+         in = en / adentro
+
+      🗒 Concepto
+         Devuelve el nombre de las propiedades propias y heradades del objeto en cadenas de texto. 
+
+      🗒 Uso
+         for(let nomVariable in objeto){...}
+   
+   📒 Object.entries()
+      🗣 Significado
+         object = objeto
+         entries = entradas
+      
+      🗒 Concepto
+         Devuelve un array por cada propiedad-valor que hay dentro del objeto. 
+
+      🗒 Uso
+         Object.entries(objeto)
+
+   📒 Object.keys()
+      🗣 Significado
+         object = objeto
+         keys = llaves
+      
+      🗒 Concepto
+         Devuelve un array de las propiedades o keys un objeto.
+
+      🗒 Uso
+         Object.keys(objeto)
+
+   📒 Object.values()
+      🗣 Significado
+         object = objeto
+         values = valores
+      
+      🗒 Concepto
+         Devuelve un array con los valores correspondientes a las propiedades un objeto.
+
+      🗒 Uso
+         Object.values(objeto)
+

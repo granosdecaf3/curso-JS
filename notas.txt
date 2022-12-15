@@ -1,0 +1,69 @@
+TIPOS DE DATO PRIMITIVO. 
+------------------------
+📒 Boolean 
+   🗒 Valores
+      💭 true --> verdad
+      💭 false --> falso
+   
+   🗒 Truthy & falsy
+      🗣 Significado
+         Truthy = Verdad
+         Falsy = Falsedad
+
+      -> Truthy
+         - String no vacío
+         - Número diferente de cero
+         - Arrays
+         - Objetos
+
+      -> Falsy
+         - 0
+         - String vacío
+         - NaN
+         - undefined
+         - Null
+
+📒 Undefined
+   🗣 Significado
+      Undefined = Indefinido
+   
+   🗒 Concepto
+      El valor de la variable no existe. 
+
+📒 Null
+   🗣 Significado
+      Null = Nulo
+   
+   🗒 Concepto
+      El elemento no existe. 
+
+📒 Symbol
+   🗣 Significado
+      Symbol = Simbolo
+
+📒 String
+   🗣 Significado
+      String = Cadena 
+   
+   🗒 Concepto
+      - Agrupación de caracteres rodeados de comillas '', "", ``. 
+   
+   ...
+
+📒 Number
+   🗣 Significado
+      Number = Numero
+   
+   🗒 Concepto
+      - En JavaScript todos los números, son números.
+      - Para escribirlos no necesitas usar comillas.
+
+   🗒 Orden de las operaciones
+      1º -> Lo que esta en parentesís. 
+      2º -> Multiplicación o división
+      3º -> Suma o resta. 
+
+   🗒 NaN
+      - Not a number
+   
+   ...

@@ -1,0 +1,70 @@
+A R R A Y S
+Part. #2
+-------------------
+📚 Array con let y const
+   🗒 Concepto
+      - Una matriz declarada con const le podemos cambiar el contenido pero no podemos asignar una nueva matriz o un valor diferente. 
+
+      - Una matriz declarada con let le podemos cambiar el contenido o el valor. 
+
+📚 Array anidado
+   🗒 Concepto
+      Cuando un array contiene otro array, se la conoce como una array anidado.
+
+📚 Convertir arreglo a string. 
+   📒 Método join()
+      🗣 Significado
+         join = unir
+
+      🗒 Uso
+         arreglo.join()
+   
+   📒 Uso de String()
+      🗒 Uso
+         String(arreglo)
+
+📚 Recorrer arreglos. 
+   📒 Ciclo for
+
+   📒 Ciclo for of
+
+   📒 Método forEach()
+      🗣 Significado
+         for = para 
+         each = cada
+
+      🗒 Concepto
+         Método para aplicar una funcion para cada elemento de un array. 
+         No genera un array nuevo. 
+
+      🗒 Uso
+         arreglo.forEach(función)
+   
+   📒 Método some()
+      🗣 Significado
+         some = algún
+
+      🗒 Concepto
+         Método para saber si ALGÚN elemento de un array cumple con una condición. 
+         Como resultado regresa un boolean. 
+
+         Nota: 
+         No modifica el arreglo original
+
+      🗒 Uso
+         arreglo.some(función)
+   
+   📒 Método every()
+      🗣 Significado
+         every = todos / todo
+
+      🗒 Concepto
+         Método para saber si TODOS los elementos del array cumplen con una condición. 
+         Como resultado regresa un boolean.
+          
+         NOTAS: 
+         1. No modifica el array original
+         2. Every regresa true si el arreglo esta vacío 
+
+      🗒 Uso
+         arreglo.every(función)

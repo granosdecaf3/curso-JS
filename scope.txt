@@ -1,0 +1,35 @@
+S C O P E
+--------------------------
+📚 Concepto
+   🗣 Significado
+      scope = alcance
+   
+   Alcance de las varaibles.
+
+📚 Tipos
+   📒 Universal.
+      - Son variables que no están:
+         * vinculadas a nada, son libres. 
+         * declaradas dentro de un bloque {} o una función.
+      - Se puede acceder a ellas desde cualquier parte del código.
+      - De tipo var, let, const. 
+         * Las variables var pueden ser re-asignadas o re-declaradas.
+         * Las variables let pueden ser re-asignadas pero no re-declaradas.
+         Declarar -> let nombre
+         Asignar -> nombre = valor
+
+   📒 Local.
+      - Solo se puede acceder a ellas en donde fueron declaradas.
+      - Están en memoria durante la ejecución de la función o bloque.
+
+      📖 Función
+         - Son variables declaradas dentro de una función. 
+         - Modifican las variables globales pero no viceversa.  
+
+      📖 Bloque
+         - Son variables declaradas dentro de un bloque. 
+         - Modifican las variables globales pero no viceversa. 
+      
+   📒 Módulo
+      - Son variables declaradas dentro de un archivo JavaScript con el atributo type y el valor module. 
+      - Si queremos acceder a ellas debemos importar y exportar. 

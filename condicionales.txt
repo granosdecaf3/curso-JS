@@ -1,0 +1,53 @@
+C O N D I C I O N A L E S
+--------------------------
+📚 Concepto
+   Evaluan una condición.
+   Una condición es una regla que si se cumple o no, hay una respuesta. 
+
+📚 Sintaxis
+
+   tipoCondicional(condición)
+
+📚 Tipos de Condcionales 
+   📒 If
+      📖 Sintaxis #1
+         if(condición) ...
+
+      📖 Sintaxis #2
+         if(condición){
+            ...
+         }
+
+      📖 Sintaxis #3
+         if(condición){
+            ...
+         } else{
+            ...
+         }
+
+         📍NOTA
+            - Los if else son conocidos como decisiones binarias.  
+
+      📖 Sintaxis #4
+         if(condición){
+            ...
+         } else if(condición){
+            ...
+         } else {
+            ...
+         } 
+      
+   📒 Switch 
+      📖 Sintaxis
+
+         switch(condición){
+            case 'condición-caso1':
+               // Código a ejecutar
+               break;
+            case 'condición-caso2':
+               // Código a ejecutar
+               break;
+            default: 
+               // Código a ejecutar
+               break; 
+         }

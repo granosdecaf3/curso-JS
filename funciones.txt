@@ -1,0 +1,71 @@
+F U N C I O N E S
+------------------
+📚 Concepto
+   🔸 Es un pedaso de código reutilizable con una única tarea. 
+   🔸 Reciben datos, los transforman y los sueltan.
+
+   📍 NOTA: 
+      Para que el código de una función se lea, se tiene que mandar a llamar a la función.  
+
+📚 Sintaxis:
+
+   function nombreFunción (parámetro1, parámetro2){
+      // Código a ejecutar. 
+      return; 
+   }
+   // Llamar la función
+   nombreFunción(argumento1, argumento2)
+
+   📒 Nombre de la funcion
+       🔸 No es obligatorio.
+       🔸 Sirve para identificar a la función y poderla llamar.
+   
+   📒 Parámetros
+      🔸 Son datos de entrada que vienen de fuera(ajenas a la función) y que son leídos dentro de la función para realizar una tarea. 
+
+      🗒 Parámetros por defecto
+         Permite asignar un valor por defecto a los parámetros.
+      
+      🗒 Parámetro rest
+         Permiten mandar una cantidad indeterminada de argumentos.
+
+      🗒 Parámetros de un objeto. 
+         Parámetros 100% de un objeto. 
+   
+   📒 Argumentos
+      🔸 Son los valores que le asignamos a los parámetros. 
+
+      📍 NOTA:
+         El número de argumentos no tiene que ser igual al número de parámetros.
+            argumentos > parámetros = los adicionales se ignoran. 
+            argumentos < parámetros = los faltantes son undefined 
+
+   📒 Return
+      🔸 Retorna/regresa un valor. 
+      🔸 Por defecto el valor resultante de una función es undefined. 
+   
+   📒 Llamar a la función
+      🔸 Una declaración de función no ejecuta el código dentro de ella, solo declara su existencia.
+
+📚 Tipos de funciones
+   📒 Declaración de función
+   📒 Expresión de función
+      🗒 Palabra function
+      
+      🗒 Función flecha / Arrow fuction / Flechi function
+
+      🗒 IIFE
+      
+📚 Try catch
+   🗣 
+      Try = Probar
+      Catch = Capturar / tomar
+
+   🗒 Sintaxis
+      try{
+         // nombreFunción()
+      } catch {
+         // Mensaje error
+      } 
+
+📚 Objetos y funciones. 

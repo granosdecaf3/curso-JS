@@ -1,0 +1,159 @@
+Numbers
+--------------------------------
+📚 Métodos 
+   📒 toFixed()
+      🗣 Significado
+         to = para / hacia / a
+         fixed = fijo
+         
+      🗒 Concepto
+         - Permite indicar cuántos números decimales se van a tomar en cuenta y a éstos redondearlos.
+
+      🗒 Uso
+         number.toFixed(n)
+   
+   📒 parseInt()
+      🗣 Significado
+         parse = analizar 
+         integer = entero
+         
+      🗒 Concepto
+         - Convierte un texto a numero entero. 
+         - Convierte un numero a numero entero. 
+
+      🗒 Uso
+         parseInt(numero)
+   
+   📒 parseFloat()
+      🗣 Significado
+         parse = analizar 
+         integer = entero 
+         
+      🗒 Concepto
+         - Convierte un texto a numero. 
+         - Convierte un numero a numero. 
+
+      🗒 Uso
+         parseFloat(numero)
+   
+📚 Objeto Math
+   🗣 Significado
+      Math = matemáticas
+   
+   📒 Math.PI
+      🗒 Concepto
+         - Regresa el valor de pi
+
+   📒 Math.round()
+      🗣 Significado
+         round = redondear 
+         
+      🗒 Concepto
+         - Permite redondear un numero que tiene decimales. 
+      
+      🗒 Uso
+         Math.round(numero)
+
+   📒 Math.ceil()
+      🗣 Significado
+         ceil = techo
+         
+      🗒 Concepto
+         - Permite redondear un numero (que tiene decimales) siempre hacia arriba.  
+      
+      🗒 Uso
+         Math.ceil(numero)
+
+   📒 Math.floor()
+      🗣 Significado
+         floor = piso / suelo / fondo
+         
+      🗒 Concepto
+         - Permite redondear un numero que tiene decimales siempre hacia abajo.  
+      
+      🗒 Uso
+         Math.floor(numero)  
+   
+   📒 Math.sqrt()
+      🗣 Significado
+         square = cuadrado / cuadrada
+         root   = raíz
+         
+      🗒 Concepto
+         - Regresa la raíz cuadrada de un numero.   
+      
+      🗒 Uso
+         Math.sqrt(numero)
+
+   📒 Math.abs()
+      🗣 Significado
+         absolute = absoluto
+         
+      🗒 Concepto
+         - Regresa un número absoluto.  -9 -> 9
+      
+      🗒 Uso
+         Math.abs(numero)
+   
+   📒 Math.pow()
+      🗣 Significado
+         power = poder / potencia
+         
+      🗒 Concepto
+         - Regresa la "n" potencia de un número. 
+      
+      🗒 Uso
+         Math.pow(numero , potencia)
+
+   📒 Math.min()
+      🗣 Significado
+         minimum = minímo
+         
+      🗒 Concepto
+         - Obtiene el mínimo de una serie de números. 
+      
+      🗒 Uso
+         Math.min(numeros)
+
+         💡 Dato
+            No recibe arrays de forma directa, sino  que se  implementa el operador spread primero luego el array. 
+
+   📒 Math.max()
+      🗣 Significado
+         maximum = máximo
+         
+      🗒 Concepto
+         - Obtiene el máximo de una serie de números. 
+      
+      🗒 Uso
+         Math.min(numeros)
+      
+         💡 Dato
+            No recibe arrays de forma directa, sino  que se  implementa el operador spread primero luego el array. 
+      
+   📒 Math.random()
+      🗣 Significado
+         random = aleatorio
+         
+      🗒 Concepto
+         - Devuelve un número aleatorio entre cero y uno.
+      
+      🗒 Uso
+         Math.random()
+
+📚 Convertir número a string
+   📒 Formas   
+      🗒 String()
+         🗣 Significado
+            string = cadena.
+
+         🗒 Uso
+            String(numero)
+
+      🗒 toString()
+         🗣 Significado
+            to = a / hacia
+            string = cadena
+
+         🗒 Uso
+            numero.toString()

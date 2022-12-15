@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Los eventos</title>
+    <style>
+      div {
+        --border-color: gray;
+        border-left: 4px solid var(--border-color);
+        padding: 0 0.5rem 1rem;
+        margin-bottom: 1rem;
+      }
+      div:nth-child(odd) {
+        --border-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Eventos</h1>
+    <div>
+      <h2>Eventos del ratón</h2>
+      <button id="btn-evento">Button</button>
+    </div>
+
+    <div>
+      <h2>Eventos de teclado</h2>
+      <input type="text" />
+    </div>
+
+    <div>
+      <h2>Eventos de formulario</h2>
+      <form id="formulario">
+        <label> Nombre: <input type="text" name="nombreUsuario" /> </label>
+        <br />
+        <label> Correo: <input type="email" name="correoUsuario" /> </label>
+        <br />
+        <label>
+          <input type="checkbox" name="terminosCondiciones" /> Acepto términos y
+          condiciones
+        </label>
+        <br />
+        <input type="submit" value="Enviar" />
+        <br />
+      </form>
+    </div>
+
+    <div>
+      <h2>Eventos del navegador</h2>
+    </div>
+
+    <div>
+      <h2>Eventos del DOM</h2>
+      <img
+        src="https://images.unsplash.com/photo-1608956242303-477c43ee986d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1834&q=80"
+        alt=""
+        style="height: 150px; width: 120px; object-fit: cover"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1609058488942-63ccdcdbbfbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80"
+        alt=""
+        style="height: 150px; width: 120px; object-fit: cover"
+      />
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

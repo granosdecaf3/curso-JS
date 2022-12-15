@@ -1,0 +1,48 @@
+C I C L O S
+------------
+📚 Concepto
+   - También conocidos como loops o bucles. 
+   - Un ciclo es un bloque de código que se repite hasta que una condición se cumpla.
+
+📚 Ciclos en JavaScript
+   📒 Ciclo for
+      📖 Sintaxis
+
+         for(inicializador; condición; incremento||decremento actualización){
+            // Código a repetir
+         }
+      
+      📖 Palabras reservadas
+         🗒 continue
+            Salta iteraciones
+
+         🗒 break
+            Rompe el ciclo
+   
+   📒 Ciclo while
+      📖 Sintaxis
+
+      inicializador
+      while(condición){
+         // Código a repetir
+         incremento/decremento actualización
+      }
+   
+   📒 Otros
+      🙃 forEach()
+      🙃 map()
+      🙃 for(in)
+      🙃 for(of)
+         📖 Sintaxis: 
+
+            for(variable of nombreArraySetMap.método){
+               // Código a ejecutar
+            }
+
+         📖 Métodos
+            🗒 values() --> Valor del key
+            🗒 keys() --> Key (índice)
+            🗒 entries() --> Key + valor
+
+
+   
